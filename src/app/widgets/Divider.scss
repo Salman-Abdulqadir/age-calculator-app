@@ -1,0 +1,26 @@
+.age-calculator-divider-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  .age-calculator-divider {
+    height: 1px;
+    background-color: $light-grey;
+    flex: 1;
+  }
+  .age-calculator-divider-image {
+    width: 70px;
+    background-color: $purple;
+    border-radius: 50%;
+    padding: 1rem;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: $off-black;
+    }
+  }
+  @media screen and (max-width: $break-point-mobile) {
+    margin: 2rem 0;
+    .age-calculator-divider-image {
+      transform: translateX(-300%);
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.age-calculator-birthday {
+  .age-calculator-birthday-inputs {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .age-calculator-birthday-error {
+    font-size: small;
+    font-weight: 400;
+    color: $light-red;
+  }
+}

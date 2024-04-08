@@ -1,0 +1,14 @@
+.age-calculator-wrapper {
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  .age-calculator {
+    min-width: fit-content;
+    background-color: $white;
+    border-radius: 1rem 1rem 10rem 1rem;
+    padding: 2rem;
+  }
+}
