@@ -1,9 +1,9 @@
 .age-calculator-divider-wrapper {
   display: flex;
   align-items: center;
-  position: relative;
   .age-calculator-divider {
     height: 1px;
+    width: 100%;
     background-color: $light-grey;
     flex: 1;
   }
@@ -18,9 +18,18 @@
     }
   }
   @media screen and (max-width: $break-point-mobile) {
-    margin: 2rem 0;
+    margin-top: 3rem;
+
+    display: block;
+    .age-calculator-divider {
+      height: 1px;
+    }
     .age-calculator-divider-image {
-      transform: translateX(-300%);
+      position: relative;
+
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
 }

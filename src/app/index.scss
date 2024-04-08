@@ -6,9 +6,14 @@
   align-items: center;
   padding: 1rem;
   .age-calculator {
-    min-width: fit-content;
     background-color: $white;
     border-radius: 1rem 1rem 10rem 1rem;
     padding: 2rem;
+  }
+  @media screen and (max-width: $break-point-mobile) {
+    .age-calculator {
+      background-color: $white;
+      border-radius: 1rem 1rem 6rem 1rem;
+    }
   }
 }

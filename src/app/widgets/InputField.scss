@@ -11,7 +11,7 @@
     color: $light-red;
   }
   .age-calculator-input {
-    max-width: 8.5rem;
+    width: 8.5rem;
     padding: 0.5rem 1rem;
     font-size: x-large;
     border-radius: 0.5rem;
@@ -32,7 +32,8 @@
   }
   @media screen and (max-width: $break-point-mobile) {
     .age-calculator-input {
-      max-width: 8.5rem;
+      width: 5rem;
+      font-size: large;
     }
   }
 }
