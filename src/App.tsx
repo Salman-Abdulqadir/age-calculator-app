@@ -1,4 +1,4 @@
-import AgeCalculator from "./app";
+import AgeCalculator from "./app/index";
 
 function App() {
   return <AgeCalculator />;
